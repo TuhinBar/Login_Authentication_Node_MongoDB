@@ -41,7 +41,6 @@ app.get("/register", (req, res) => {
 
 
 app.post("/register", (req, res) => {
-    console.log(req.body);
     const newUser = new User({
         email: req.body.email,
         password: md5(req.body.password)
