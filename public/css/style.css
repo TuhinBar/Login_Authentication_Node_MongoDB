@@ -1,0 +1,77 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+    /* font-family: "Mon", sans-serif; */
+}
+a{
+    text-decoration: none;
+}
+.container{
+    height: 400px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 35%;
+    bottom: auto;
+    flex-direction: column;
+    box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.inputs{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    justify-content: center;
+    align-items: center;
+}
+#clkImage{
+    width: 170px;
+}
+
+#submitToken {
+    padding: 15px 20px;
+    width: 100%;
+    background-color: #7b68ee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+.enterToken{
+    padding: 15px 20px;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid #7b68ee;
+}
+.enterToken:focus{
+    outline: none;
+}
+#context{
+    margin: 15px;
+    text-align: center;
+    font-family: "Halvetica", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.instructuions{
+    margin: 15px 25px;
+    text-align: center;
+    font-family: "Halvetica", sans-serif;
+    opacity: 0.3;
+}

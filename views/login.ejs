@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Login</title>
+</head>
+<body>
+     <div class="container">
+         <p id="context">Login!</p>
+         <form action="/login" method="post">
+                    <div class="inputs" >
+                <input type="text" required="required" class="enterToken" name="logEmail" placeholder="Email" >
+                <input type="password" required="required" class="enterToken" name="logPassword" placeholder="Password" autocomplete="off">
+                <button type="submit" id="submitToken">Login</button>
+            </div>
+            </form>
+        <div class="instructuions">
+            <p>You can log in only from 2 devices at a time </p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
