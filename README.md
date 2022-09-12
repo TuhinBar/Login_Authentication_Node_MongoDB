@@ -39,7 +39,7 @@
  ![image](https://user-images.githubusercontent.com/85868593/189726505-1f65bf50-2926-4fb5-9686-c1b176659877.png)
 
 - Login limit reached and log out warning.
--
+
  ![image](https://user-images.githubusercontent.com/85868593/189726831-ff996a2a-5aad-4a42-93ee-c22a8d809849.png)
 
 ## DB sample :
