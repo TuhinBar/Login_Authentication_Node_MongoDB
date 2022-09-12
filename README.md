@@ -37,6 +37,17 @@
 - Login limit reached and log out warning.
 - ![image](https://user-images.githubusercontent.com/85868593/189726831-ff996a2a-5aad-4a42-93ee-c22a8d809849.png)
 
+## DB sample :
+
+```
+{
+    "_id" : ObjectId("631cbbf6825f12535159a5bd"),
+    "email" : "tuhinbar44@gmail.com",
+    "password" : "26ed469e827f23eab439f2e91a8a4ce3",
+    "__v" : NumberInt(0)
+}
+```
+
 ## Demo :
 https://user-images.githubusercontent.com/85868593/189727188-79ea0491-b103-4679-ac5b-60ea2f5f5754.mp4
 
