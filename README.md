@@ -16,7 +16,9 @@
 
 - To install all the modules after forking or downloading the code use the below command to download all dependancies.
 
-- ```npm i express ejs mongoose body-parser md5 jsonwebtoken dotenv```
+ ```
+ npm i express ejs mongoose body-parser md5 jsonwebtoken dotenv
+ ```
 
 ## Previews :
 - Home route `//localhost:3000/`.
